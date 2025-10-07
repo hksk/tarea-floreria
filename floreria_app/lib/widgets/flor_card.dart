@@ -87,12 +87,15 @@ class FlorCard extends StatelessWidget {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        Text(
-                          'S/${flor.precio.toStringAsFixed(2)}',
-                          style: const TextStyle(
-                            fontSize: 16,
-                            fontWeight: FontWeight.bold,
-                            color: Color(0xFF4CAF50),
+                        Expanded(
+                          child: Text(
+                            'S/${flor.precio.toStringAsFixed(2)}',
+                            style: const TextStyle(
+                              fontSize: 14,
+                              fontWeight: FontWeight.bold,
+                              color: Color(0xFF4CAF50),
+                            ),
+                            overflow: TextOverflow.ellipsis,
                           ),
                         ),
                         Consumer<CarritoProvider>(

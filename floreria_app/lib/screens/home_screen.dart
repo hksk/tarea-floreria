@@ -166,7 +166,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           selectedColor: Colors.white,
                           checkmarkColor: const Color(0xFF2E7D32),
                           labelStyle: TextStyle(
-                            color: isSelected ? const Color(0xFF2E7D32) : Colors.white,
+                            color: isSelected ? const Color(0xFF2E7D32) : Colors.black87,
                             fontWeight: isSelected ? FontWeight.bold : FontWeight.w600,
                           ),
                           side: BorderSide(
