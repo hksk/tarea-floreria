@@ -135,7 +135,7 @@ Este proyecto es educativo y fue desarrollado para propósitos académicos.
 
 ## Autores
 
-- [Tu Nombre] - Desarrollo completo de la aplicación Flutter
+- Erik Beltran - Desarrollo completo de la aplicación Flutter
 
 ## Créditos
 
